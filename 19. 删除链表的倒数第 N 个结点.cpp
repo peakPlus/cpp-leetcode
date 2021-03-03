@@ -38,6 +38,6 @@ int main()
 	head1->next->next->next = new ListNode(4);
 	head1->next->next->next->next = new ListNode(5);
 	ListNode* head = s.removeNthFromEnd(head1, 2);
-	cout << head->val << "->" << head->next->val << "->" << head->next->next->val << endl;
+	//cout << head->val << "->" << head->next->val << "->" << head->next->next->val << endl;
 	return 0;
 }
