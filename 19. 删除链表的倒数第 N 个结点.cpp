@@ -28,16 +28,16 @@ public:
 	}
 };
 
-int main()
-{
-	Solution s;
-	//vector<int> subs = s.addTwoNumbers(nums, target);
-	ListNode* head1 = new ListNode(1);
-	head1->next = new ListNode(2);
-	head1->next->next = new ListNode(3);
-	head1->next->next->next = new ListNode(4);
-	head1->next->next->next->next = new ListNode(5);
-	ListNode* head = s.removeNthFromEnd(head1, 2);
-	//cout << head->val << "->" << head->next->val << "->" << head->next->next->val << endl;
-	return 0;
-}
+//int main()
+//{
+//	Solution s;
+//	//vector<int> subs = s.addTwoNumbers(nums, target);
+//	ListNode* head1 = new ListNode(1);
+//	head1->next = new ListNode(2);
+//	head1->next->next = new ListNode(3);
+//	head1->next->next->next = new ListNode(4);
+//	head1->next->next->next->next = new ListNode(5);
+//	ListNode* head = s.removeNthFromEnd(head1, 2);
+//	//cout << head->val << "->" << head->next->val << "->" << head->next->next->val << endl;
+//	return 0;
+//}
