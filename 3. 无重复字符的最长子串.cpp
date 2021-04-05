@@ -21,11 +21,11 @@ public:
 	}
 };
 
-int main()
-{
-	Solution s;
-	string str = "abcabcbb";
-	int n = s.lengthOfLongestSubstring(str);
-	cout << n << endl;
-	return 0;
-}
+//int main()
+//{
+//	Solution s;
+//	string str = "abcabcbb";
+//	int n = s.lengthOfLongestSubstring(str);
+//	cout << n << endl;
+//	return 0;
+//}
